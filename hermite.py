@@ -12,7 +12,7 @@ class InterpolacionHermite:
         n = len(self.valores_x)     # calcula la cantidad total de puntos de interpolación
         H = 0                       # inicia el polinomio en un valor neutro (0)
         for i in range(n):          # itera por cada punto de interpolación
-            h_i = 0                 # inicializa un termino base de lagrange
+            h_i = 1                 # inicializa un termino base de lagrange
             for j in range(n):      # Bucle para construir el producto
                 if i != j:          # evita la división por cero
                     h_i *= (x - self.valores_x[j]) / (self.valores_x[i] - self.valores_x[j])    # construye el término de lagrange
