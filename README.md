@@ -45,4 +45,4 @@ Se determinó que la temperatura presenta un comportamiento similar a la expresi
 > En la graficación, el eje X representa el tiempo del estudio. El cero representa el punto medio del mismo, es decir, la hora 12 del análisis meteorológico.
 
 > [!NOTE]
-> Elaborado por: Luis León, Nelson Guerrero, Juan Diego Cordero.
+> Desarrollado por: Luis León, Nelson Guerrero, Juan Diego Cordero.
